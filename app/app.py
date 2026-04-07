@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load model
-model = joblib.load("model/delay_model.pkl")
+model = joblib.load("../model/delay_model.pkl")
 
 # Page config
 st.set_page_config(page_title="Smart Transport AI", layout="wide")
